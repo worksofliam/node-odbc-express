@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node index.js",
+    "docker": "docker build --no-cache -t tmp_image ."
+  },
   "dependencies": {
     "express": "^4.17.3",
     "odbc": "^2.4.2"
