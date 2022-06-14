@@ -12,7 +12,7 @@ RUN apt -y install ibm-iaccess
 
 ENV PORT=$PORT
 ENV DB_HOST=$DB_HOST
-ENV DB_USER=$DB_USER
+ENV DB_ID=$DB_ID
 ENV DB_PASSWORD=$DB_PASSWORD
 
 CMD npm run start
